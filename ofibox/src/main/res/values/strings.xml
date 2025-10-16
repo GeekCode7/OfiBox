@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">OfiBox</string>
+    <string name="welcome_title">¡Bienvenido a %1$s!</string>
+    <string name="welcome_subtitle">Tu tienda online de papelería y más</string>
+    <string name="welcome_create_account">Crear cuenta</string>
+    <string name="welcome_login">Iniciar sesión</string>
+    <string name="welcome_guest">Entrar como invitado</string>
+
+    <!-- Registro -->
+    <string name="register_title">Crear cuenta</string>
+    <string name="hint_fullname">Nombre completo</string>
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_phone">Teléfono</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+    <string name="label_terms">Acepto términos y condiciones</string>
+    <string name="action_register">Registrarme</string>
+
+    <!-- Errores registro -->
+    <string name="err_required">Campo obligatorio</string>
+    <string name="err_email">Correo no válido</string>
+    <string name="err_phone">Teléfono no válido</string>
+    <string name="err_password_len">Mínimo 6 caracteres</string>
+    <string name="err_password_match">Las contraseñas no coinciden</string>
+    <string name="err_terms">Debes aceptar los términos</string>
+
+    <!-- Mensajes registro correcto -->
+    <string name="msg_register_ok">¡Registro simulado correcto!</string>
+
+    <!-- Login -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_subtitle">Accede con tu cuenta</string>
+    <string name="login_email">Correo electrónico</string>
+    <string name="login_password">Contraseña</string>
+    <string name="action_login">Entrar</string>
+    <string name="login_forgot">¿Olvidaste tu contraseña?</string>
+
+    <!-- Errores login -->
+    <string name="err_login_email">Ingresa un correo válido</string>
+    <string name="err_login_password">La contraseña es obligatoria</string>
+
+    <!-- Mensajes login correcto -->
+    <string name="msg_login_ok">¡Inicio de sesión simulado correcto!</string>
+
+    <!-- Perfil -->
+    <string name="profile_title">Mi perfil</string>
+    <string name="profile_tagline">Administra los datos de tu cuenta</string>
+    <string name="profile_edit">Editar perfil</string>
+    <string name="profile_logout">Cerrar sesión</string>
+
+    <!-- Placeholders -->
+    <string name="profile_name_placeholder">Nombre Apellido</string>
+    <string name="profile_email_placeholder">usuario@correo.com</string>
+    <string name="profile_phone_placeholder">+57 300 000 0000</string>
+
+    <!-- Mensajes toast -->
+    <string name="msg_edit_soon">Edición no implementada (UI).</string>
+    <string name="msg_logged_out">Sesión cerrada (simulado).</string>
+
+    <!-- Diálogo de cierre -->
+    <string name="dlg_logout_title">Cerrar sesión</string>
+    <string name="dlg_logout_msg">¿Seguro que deseas salir?</string>
+    <string name="dlg_yes">Sí</string>
+    <string name="dlg_no">No</string>
+
+    <!-- contentDescription -->
+    <string name="desc_profile_avatar">Avatar del usuario</string>
+    <string name="desc_icon_email">Icono de correo</string>
+    <string name="desc_icon_phone">Icono de teléfono</string>
+
+</resources>

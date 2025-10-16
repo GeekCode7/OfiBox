@@ -1,0 +1,50 @@
+<resources>
+    <!-- Botón primario redondeado -->
+    <style name="Widget.OfiBox.Button.Primary" parent="Widget.Material3.Button">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="backgroundTint">@color/brand_primary</item>
+        <item name="iconTint">@color/brand_on_primary</item>
+        <item name="rippleColor">@color/brand_on_primary</item>
+    </style>
+
+    <!-- Botón contorneado -->
+    <style name="Widget.OfiBox.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="strokeColor">@color/brand_primary</item>
+        <item name="iconTint">@color/brand_primary</item>
+    </style>
+
+    <!-- Títulos de bienvenida -->
+    <style name="Text.OfiBox.WelcomeTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/brand_on_background</item>
+    </style>
+    <style name="Text.OfiBox.WelcomeSubtitle" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/brand_on_background</item>
+    </style>
+    <style name="Text.OfiBox.Link" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/brand_primary</item>
+    </style>
+
+    <!-- TextInputLayout con bordes y radio personalizados -->
+    <style name="Widget.OfiBox.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/brand_primary</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+    </style>
+
+    <!-- EditText interna -->
+    <style name="Widget.OfiBoxTextInputEditText" parent="Widget.Material3.TextInputEditText.OutlinedBox">
+        <item name="android:textColor">@color/brand_on_background</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>
