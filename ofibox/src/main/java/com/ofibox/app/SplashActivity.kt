@@ -21,7 +21,7 @@ class SplashActivity : AppCompatActivity() {
         // Espera 2 segundos y navega a Bienvenida (WelcomeActivity)
         Handler(Looper.getMainLooper()).postDelayed({
             startActivity(Intent(this, WelcomeActivity::class.java))
-            finish() // importante: cierra la Splash para que no vuelva al retroceder
+            finish() // Cierra la Splash para que no vuelva al retroceder
         }, 2000)
     }
 }

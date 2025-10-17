@@ -15,7 +15,7 @@ class WelcomeActivity : AppCompatActivity() {
         binding = ActivityWelcomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Ajusta el título con el nombre real de la app si quieres
+        // Ajusta el título con el nombre de la app
         binding.tvTitle.text = getString(R.string.welcome_title, getString(R.string.app_name))
 
         binding.btnCreateAccount.setOnClickListener {

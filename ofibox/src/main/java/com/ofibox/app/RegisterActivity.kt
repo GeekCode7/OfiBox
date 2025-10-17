@@ -58,7 +58,7 @@ class RegisterActivity : AppCompatActivity() {
             binding.tilEmail.error = getString(R.string.err_email); ok = false
         }
 
-        // Teléfono simple: 10 dígitos (ajústalo a tu caso)
+        // Teléfono simple: 10 dígitos
         val phoneRegex = Regex("^[0-9]{10}$")
         if (phone.isEmpty()) {
             binding.tilPhone.error = getString(R.string.err_required); ok = false

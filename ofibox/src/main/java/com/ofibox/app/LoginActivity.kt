@@ -35,7 +35,7 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-        // (Opcional) ¿Olvidaste tu contraseña?
+        // ¿Olvidaste tu contraseña?
         binding.tvForgot.setOnClickListener {
             Toast.makeText(this, "Función no implementada (UI).", Toast.LENGTH_SHORT).show()
         }
